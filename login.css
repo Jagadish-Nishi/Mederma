@@ -1,0 +1,239 @@
+                           /* FONTS ST */
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+                           
+.roboto-slab{
+font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
+font-weight: 550;
+font-style: normal;
+}
+
+.abyssinica{
+  font-family: 'Abyssinica SIL', serif;
+}
+.judson-regular {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.judson-bold {
+  font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.judson-regular-italic {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.aref-ruqaa-ink-regular {
+  font-family: "Aref Ruqaa Ink", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aref-ruqaa-ink-bold {
+  font-family: "Aref Ruqaa Ink", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-reg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+                           /* FONTS END */
+
+
+                           /* NAVBAR ST */
+
+
+nav a{
+    text-decoration: none;
+}
+nav{
+    background: transparent;
+}
+nav li{
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+}
+.frm {
+  border: 3px solid rgb(47, 154, 237);
+  border-radius: 9px;
+  width: 800px; /* Default width for large screens */
+  margin: 0 auto; /* Centering the form horizontally */
+  display: flex; /* Ensures the form uses flexbox layout */
+  align-items: center; /* Center-aligns items vertically */
+  justify-content: center; /* Center-aligns items horizontally */
+}
+
+.frm input {
+  width: 100%;
+  background: transparent;
+  border-radius: 9px;
+  outline: none;
+  color: rgb(26, 59, 83);
+  font-weight: bold;
+}
+
+.in {
+  color: rgb(237, 227, 227);
+  border: none;
+  height: 30px;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Media query for screens down to 991px */
+
+@media (max-width: 991px) {
+  .frm {
+      width: 65%; /* Full width for screens below 991px */
+      padding: 0 10px; /* Padding to avoid touching screen edges */
+  }
+}
+@media (max-width: 768px) {
+  .frm {
+      width: 65%; /* Full width for screens below 991px */
+      padding: 0 10px;
+       /* Padding to avoid touching screen edges */
+  }
+}
+@media (max-width: 695px) {
+  .frm {
+      width: 54%; /* Full width for screens below 991px */
+      padding: 0 10px;
+       /* Padding to avoid touching screen edges */
+  }
+}
+/* Media query for smaller screens (e.g., below 576px) */
+@media (max-width: 576px) {
+  .frm {
+      width: 40%; /* Full width for very small screens */
+      padding: 0 5px; /* Reduced padding for very small screens */
+  }
+
+  .frm input {
+      font-size: 14px; /* Adjust font size if necessary */
+  }
+}
+
+                           /* NAVBAR END */
+.cnt{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer h2{
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-footer p{
+font-family: "Cabin", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+}
+.main-footer{
+justify-content: center;
+align-items: center;
+}
+footer a{
+text-decoration: none;
+}
+
+
+footer a{
+    text-decoration: none;
+  }
+

@@ -1,0 +1,399 @@
+                           /* FONTS ST */
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+                           
+.roboto-slab{
+font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
+font-weight: 550;
+font-style: normal;
+}
+
+.abyssinica{
+  font-family: 'Abyssinica SIL', serif;
+}
+                           /* FONTS END */
+
+                           /* NAVBAR ST */
+
+
+nav a{
+    text-decoration: none;
+}
+nav{
+    background: transparent;
+}
+nav li{
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* .frm{
+    border: 3px solid rgb(47, 154, 237);
+    border-radius: 9px;
+    width: 800px;
+}
+.frm input{
+    width: 100%;
+    background:transparent;
+    border-radius: 9px;
+    outline: none;
+    color:rgb(26, 59, 83) ;
+    font-weight: bold;
+}
+.in{
+    color: rgb(237, 227, 227);
+    border: none;
+    height: 30px;
+} */
+
+/* responsive search bar with full width STARTING */
+.frm {
+  border: 3px solid rgb(47, 154, 237);
+  border-radius: 9px;
+  width: 800px; /* Default width for large screens */
+  margin: 0 auto; /* Centering the form horizontally */
+  display: flex; /* Ensures the form uses flexbox layout */
+  align-items: center; /* Center-aligns items vertically */
+  justify-content: center; /* Center-aligns items horizontally */
+}
+
+.frm input {
+  width: 100%;
+  background: transparent;
+  border-radius: 9px;
+  outline: none;
+  color: rgb(26, 59, 83);
+  font-weight: bold;
+}
+
+.in {
+  color: rgb(237, 227, 227);
+  border: none;
+  height: 30px;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Media query for screens down to 991px */
+
+@media (max-width: 991px) {
+  .frm {
+      width: 65%; /* Full width for screens below 991px */
+      padding: 0 10px; /* Padding to avoid touching screen edges */
+  }
+}
+@media (max-width: 768px) {
+  .frm {
+      width: 65%; /* Full width for screens below 991px */
+      padding: 0 10px;
+       /* Padding to avoid touching screen edges */
+  }
+}
+@media (max-width: 695px) {
+  .frm {
+      width: 54%; /* Full width for screens below 991px */
+      padding: 0 10px;
+       /* Padding to avoid touching screen edges */
+  }
+}
+/* Media query for smaller screens (e.g., below 576px) */
+@media (max-width: 576px) {
+  .frm {
+      width: 40%; /* Full width for very small screens */
+      padding: 0 5px; /* Reduced padding for very small screens */
+  }
+
+  .frm input {
+      font-size: 14px; /* Adjust font size if necessary */
+  }
+}
+
+
+/* responsive search bar with full width ENDING */
+
+
+
+
+
+
+
+                           /* NAVBAR END */
+
+
+
+
+
+
+                                          /* CAROUSEL ST */
+
+.carousel img{
+  max-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.brand{
+  text-decoration: none;
+  color: rgb(0, 179, 255);
+}
+.brand:hover{
+  color: rgb(7, 95, 246);
+  transition: 0.5s all;
+
+}
+/* _carousel.scss:226 */
+
+                                  
+/* .sft{
+  position: relative;
+  z-index: 1;
+} */
+/* .cap{
+  max-width: 100%;
+  width:100lvh;
+ } */
+ /* .carousel-caption:first-child {
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+/* .carousel-caption1 {
+  position: absolute;
+  right: 100%;
+  bottom: 20px;
+  left:100% ;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  /* color: $carousel-caption-color; */
+  /* text-align: center;
+} */
+/* .main{
+  filter: brightness(0.5);
+}
+.abyssinica{
+    font-family: 'Abyssinica SIL', serif;
+  }
+.carousel-label1 {
+    position: absolute;
+    /* right: ((100% - $carousel-caption-width) / 2); */
+    /* bottom: 20px; */
+    /* left: ((100% - $carousel-caption-width) / 2); */
+    /* z-index: 10; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 100px; */
+    /* color: $carousel-caption-color; */
+    /* text-align: center; */
+  /* } */
+  /* .carousel-label2 {
+    position: absolute;
+    /* right: ((100% - $carousel-caption-width) / 2); */
+    /* bottom: 20px; */
+    /* left: ((100% - $carousel-caption-width) / 2); */
+    /* z-index: 10; */
+    /* padding-top: 20px; */
+    /* margin-bottom: 600px; */
+    /* color: $carousel-caption-color; */
+    /* text-align: center; */
+  /* } */
+  /* .carousel-label3 { */
+    /* position: absolute; */
+    /* right: ((100% - $carousel-caption-width) / 2); */
+    /* bottom: 20px; */
+    /* left: ((100% - $carousel-caption-width) / 2); */
+    /* z-index: 10; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 100px; */ */
+    /* color: $carousel-caption-color; */
+    /* text-align: center;
+  }
+  
+.carousel-item p{
+  color: rgb(0, 4, 79);
+}
+
+.roboto-slab{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .carousel-img{
+  height: 100vh;
+  padding-top: -800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */ 
+
+
+
+                                                /* CAROUSEL-END */
+
+/* .tr{
+  justify-content: space-between;
+  padding-top: -200px;
+  background-color: blue;
+} */
+
+
+
+
+/* CARDS  STARTING */
+
+.crd{
+
+}
+@media (max-width: 576px) {
+  .crd h2 {
+      font-size: 1rem;
+      overflow: scroll; /* Decrease font size for extra small screens */
+  }
+  .crd a {
+      font-size: 1rem; /* Decrease font size for extra small screens */
+  }
+  .carousel-caption button {
+      font-size: 0.6rem; /* Decrease font size for extra small screens */
+  }
+}
+
+
+
+/* TYPE WRITER START-ING */
+.ch{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(80),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+  /* TYPE WRITER END-ING */
+.crd{
+  min-height: fit-content;
+  padding-bottom: 100px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ckd{
+  color: orange;
+}
+.ch{
+  color: aliceblue;
+}
+.card:hover img{
+  transform: scale(1.2);
+}
+.card-body a{
+  text-decoration: none;
+}
+.card .card-body{
+  position: relative;
+  /* z-index: 3; */
+  /* color: #fff; */
+  /* opacity: 0; */
+  transform: translateY(10px);
+  transition: 0.5s all;
+
+}
+.card:hover .card-body{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 0.9s;
+
+}
+/* CARDS  ENDING */
+
+/* AAPPOINTMENT  ST */
+.apnt{
+  margin-top: 10px;
+}
+.sel{
+
+}
+@media (max-width: 576px) {
+  .sel h2 {
+      font-size: 1.1rem;
+      overflow: scroll; /* Decrease font size for extra small screens */
+  }
+  .crd a {
+      font-size: 1rem; /* Decrease font size for extra small screens */
+  }
+  .carousel-caption button {
+      font-size: 0.6rem; /* Decrease font size for extra small screens */
+  }
+}
+
+
+
+/* APPOINTMENT  ENDING */
+
+
+
+
+
+/* footer */
+/* .cabin{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+/* .bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+.main-footer h2{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-footer p{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.main-footer{
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.yt{
+  text-decoration: none;
+}
